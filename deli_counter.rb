@@ -8,7 +8,9 @@ def line(array)
   else
     index = 1
     print "The line is currently: "
-    
+    array.each do |person|
+      puts "#{index}. #{person}"
+      index += 1
     end
   end
 end
