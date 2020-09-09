@@ -8,8 +8,7 @@ def line(array)
   else
     index = 1
     print "The line is currently: "
-    until index == array.length - 1
-      print "#{index}. #{array[index - 1]}, "
+    
     end
   end
 end
