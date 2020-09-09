@@ -1,4 +1,4 @@
-requires pry
+require 'pry'
 # Write your code here.
 
 katz_deli = []
