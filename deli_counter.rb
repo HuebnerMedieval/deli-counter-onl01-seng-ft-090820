@@ -7,10 +7,6 @@ def line(array)
     puts "The line is currently empty."
   else
     index = 1
-    print "The line is currently: "
-    array.each do |person|
-      print "#{index}. #{person}"
-      index += 1
-    end
+    puts "The line is currently: "
   end
 end
