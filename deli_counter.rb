@@ -12,6 +12,6 @@ def line(array)
       line_array.push ("#{index}. #{person}")
       index += 1
     end
-    puts "The line is currently: #{line_array.join}"
+    puts "The line is currently: #{line_array.join (" ")}"
   end
 end
