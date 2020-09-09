@@ -26,7 +26,7 @@ def now_serving(line)
     puts "There is nobody waiting to be served!"
   else
     customer = line.shift
-    
+    binding.pry
     "Currently serving #{customer}."
   end
 end
