@@ -7,8 +7,11 @@ def line(array)
     puts "The line is currently empty."
   else
     line_array = []
+    index = 1
     array.each do |person|
-      line_array.
+      line_array.push (index. person)
+      index += 1
+    puts "The line is currently: "
     end
   end
 end
