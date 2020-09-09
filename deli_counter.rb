@@ -6,7 +6,9 @@ def line(array)
   if array.length == 0
     puts "The line is currently empty."
   else
-    index = 1
-    puts "The line is currently: "
+    line_array = []
+    array.each do |person|
+      line_array.
+    end
   end
 end
