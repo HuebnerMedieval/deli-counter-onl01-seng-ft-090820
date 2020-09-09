@@ -9,7 +9,7 @@ def line(array)
     index = 1
     print "The line is currently: "
     array.each do |person|
-      puts "#{index}. #{person}"
+      print "#{index}. #{person}"
       index += 1
     end
   end
