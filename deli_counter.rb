@@ -11,7 +11,7 @@ def line(array)
     array.each do |person|
       line_array.push ("#{index}. #{person}")
       index += 1
-    puts "The line is currently: #{line_array.join}"
     end
+    puts "The line is currently: #{line_array.join}"
   end
 end
